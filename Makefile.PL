@@ -12,7 +12,7 @@ requires 'namespace::clean'   => '0.08';
 requires 'Time::Duration::Parse' => '0.06';
 
 
-requires 'MooseX::Types::DateTime::ButMaintained' => '0.04';
+requires 'MooseX::Types::DateTime' => '0.05';
 
 requires 'DateTimeX::Easy' => '0.085';
 
@@ -20,8 +20,6 @@ test_requires 'Test::use::ok'    => '0.02';
 test_requires 'Test::Exception'  => '0.27';
 test_requires 'Test::More';
 
-repository 'git@github.com:EvanCarroll/mx-t-datetimex.git';
-
-auto_install;
+repository 'git@github.com:perigrin/mx-t-datetimex.git';
 
 WriteAll;
